@@ -1,3 +1,35 @@
+/* EDITS FOR MAKE */
+
+// make category images larger
+.category-boxes.with-logos.with-subcategories .category-box .category-box-inner .category-logo img {
+  --height: 80px;
+  height: 80px;
+}
+
+// make tudásbázis subcategory images bigger
+.category-box-tudasbazis .subcategories .subcategory .logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.category-box-tudasbazis .subcategories .subcategory {
+  font-size: 16px;
+}
+
+.category-box-tudasbazis .subcategories {
+  justify-content: space-around;
+}
+
+// make category boxes larger
+.category-boxes .category.category-box {
+  width: 46%;
+  @media screen and (max-width: 775px) {
+    width: 100%;
+  }
+}
+
+/* END EDITS FOR MAKE */
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
