@@ -1,12 +1,11 @@
 {
   "name": "Air Theme",
-  "about_url": null,
-  "license_url": null,
+  "authors": "Discourse",
+  "about_url": "https://meta.discourse.org/t/discourse-air-theme/197703",
+  "license_url": "https://github.com/discourse/discourse-air/blob/main/LICENSE",
   "components": [
-    "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
-    "https://github.com/discourse/discourse-loading-slider.git",
-    "https://github.com/discourse/discourse-clickable-topic.git",
-    "https://github.com/discourse/discourse-search-banner.git"
+    "https://github.com/discourse/discourse-minimal-category-boxes.git",
+    "https://github.com/discourse/discourse-clickable-topic.git"
   ],
   "modifiers": {
     "serialize_topic_excerpts": true
@@ -22,7 +21,8 @@
       "highlight": "e6cb37",
       "danger": "d05454",
       "success": "71bd9f",
-      "love": "c16ad7"
+      "love": "c16ad7",
+      "selected": "e1ebfb"
     },
     "air-dark": {
       "primary": "e0e0e0",
@@ -34,7 +34,10 @@
       "highlight": "9a5cfd",
       "danger": "d05454",
       "success": "71bd9f",
-      "love": "c16ad7"
+      "love": "c16ad7",
+      "selected": "2f0177",
+      "hover": "535353"
     }
-  }
+  },
+  "screenshots": ["screenshots/light.webp", "screenshots/dark.webp"]
 }
